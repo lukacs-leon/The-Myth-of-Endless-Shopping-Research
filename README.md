@@ -1,1 +1,1 @@
-# The-Myth-of-Endless-Shopping-Research
+# The Myth of Endless Shopping - Research
