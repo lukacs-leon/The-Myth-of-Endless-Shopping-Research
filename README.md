@@ -12,9 +12,22 @@ Each map encodes the static layout of a world: the spatial or logical configurat
 Rules and behavioral logic are written directly into the relevant world manager modules, allowing for flexible experimentation with different systemic conditions.
 
 As part of the research, Python scripts will be developed and executed for the different models, and their outcomes will be systematically evaluated.
+#### Raw materials
+##### Money
+##### Food
+##### Iron
+##### Wood
+##### Water
 #### Casts
 ##### Farm
+- Produces 1 food.
+- Every size increse produce +1 food.
+- Buying 1 plot of land if no one has owned it before costs 25 money. Otherwise the farmer have to negotiate with the owner.
+- Each level increase reduces costs by 10%.
+- 1 level development costs 10% more than the previous one. Costs for the first 50 technologies
 ##### Farmer
+- Every farmer produces +0.1 food. 1 farmer don't produces plus food.
+- Every Graduate farmer produces +1 food. 1 farmer is too.
 ##### Office
 ##### Officer
 ##### Factory
@@ -32,6 +45,7 @@ As part of the research, Python scripts will be developed and executed for the d
 ##### Ship
 ##### Airplane
 ##### Infrastructure Engineer
+##### University
 
 #### Modells
 This research focuses on two types of financial systems: Crypto-like and fiat-like. The former incorporates some crypto ideas and plans, such as DAO and trustless banking mechanisms. The fiat-like system incorporates structures used in the fiat world. For example, there is endless money printing.
