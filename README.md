@@ -2,9 +2,16 @@
 ## Aim and methodology of the research
 ### Purpose of the research
 The aim of this research is to investigate whether it is possible, in a predetermined system - mainly a financial system - to continuously increase or maintain the standard of living of all indefinitely.
-### Methodology
-As part of the research I will write python scripts for the different models, run them and evaluate the results.
-The scripts are each a cast in the economy.
+## Methodology
+The research is conducted using a Python-based simulation framework. Various "worlds" are modeled as isolated environments, into which pre-defined "casts"—representing agents or players—are placed. These agents are stored as separate files or objects, enabling them to behave identically when placed in identical scenarios.
+
+The setup for each simulation is defined in a central `config.json` file. This file specifies which `map.json` to use (see below), the initial agents involved, and other simulation parameters.
+
+Each map encodes the static layout of a world: the spatial or logical configuration of relevant elements. A modular "world manager" system handles the simulation logic. This manager is implemented as a directory of interchangeable modules—each capable of modeling a specific dynamic, such as DAO governance or infinite money printing.
+
+Rules and behavioral logic are written directly into the relevant world manager modules, allowing for flexible experimentation with different systemic conditions.
+
+As part of the research, Python scripts will be developed and executed for the different models, and their outcomes will be systematically evaluated.
 #### Casts
 ##### Farm
 ##### Farmer
